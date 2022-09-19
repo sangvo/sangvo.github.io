@@ -1,4 +1,4 @@
-baseURL = "https://notes.sangv2.com/"
+baseURL = "https://sangv2.com/"
 languageCode = "en-us"
 googleAnalytics = ""
 relativeURLs = false
