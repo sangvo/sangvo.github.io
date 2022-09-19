@@ -1,6 +1,6 @@
-name: Jacky Zhao
+name: Sang V2
 enableToc: true
-openToc: false
+openToc: true
 enableLinkPreview: true
 enableLatex: true
 enableCodeBlockTitle: true
@@ -11,16 +11,15 @@ enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: true
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+GitHubLink: https://github.com/sangvo/sangv2/tree/hugo/content
 enableSemanticSearch: false
 operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  SangV2 Notes
 page_title:
-  "🪴 Quartz 3.3"
+  "🪴 Sangv2"
 links:
   - link_name: Twitter
-    link: https://twitter.com/_jzhao
+    link: https://twitter.com/sangvo111
   - link_name: Github
-    link: https://github.com/jackyzha0
+    link: https://github.com/sangvo
