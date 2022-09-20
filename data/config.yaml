@@ -1,23 +1,23 @@
-name: sangv2.com
+name: sangv2
 enableToc: true
 openToc: true
 enableLinkPreview: true
-enableLatex: true
+enableLatex: false
 enableCodeBlockTitle: true
 enableCodeBlockCopy: true
 enableCallouts: true
 enableSPA: true
-enableFooter: true
+enableFooter: false
 enableContextualBacklinks: true
-enableRecentNotes: false
+enableRecentNotes: true
 enableGitHubEdit: true
-GitHubLink: https://github.com/sangvo/sangv2/tree/hugo/content
+GitHubLink: https://github.com/sangvo/notes/tree/hugo/content
 enableSemanticSearch: false
 operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 description:
   SangV2 Notes
 page_title:
-  "🔥 sangv2.com"
+  "🔥 sangv2"
 links:
   - link_name: Twitter
     link: https://twitter.com/sangvo111
