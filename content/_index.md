@@ -1,5 +1,5 @@
 ---
-title: 🚀 SangV2 - Homepage 🚀
+title: Sang Vo - Web Developer
 ---
 
 ## About me

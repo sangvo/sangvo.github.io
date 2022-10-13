@@ -1,4 +1,4 @@
-name: sangv2
+name: sangvo
 enableToc: true
 openToc: true
 enableLinkPreview: true
@@ -13,11 +13,11 @@ enableRecentNotes: true
 enableGitHubEdit: true
 GitHubLink: https://github.com/sangvo/notes/tree/hugo/content
 enableSemanticSearch: false
-operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
+operandApiKey: "AfCcq-dTLUesGFhuaeECg"
 description:
-  SangV2 Notes
+  Sang Vo - Web Developer
 page_title:
-  "🔥 sangv2"
+  /home/sangvo
 links:
   - link_name: Twitter
     link: https://twitter.com/sangvo111
