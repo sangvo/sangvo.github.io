@@ -1,5 +1,6 @@
 ---
 title: Sang Vo - Web Developer
+enableToc: false
 ---
 
 ## About me
