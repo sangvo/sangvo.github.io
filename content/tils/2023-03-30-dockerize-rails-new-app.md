@@ -22,7 +22,7 @@ $ cd docker-compose-rails-api
 
 ## Create the Dockerfile
 
-```sh
+```docker {hl_lines="2" title="Dockerfile"}
 FROM ruby:2.7.3
 LABEL Description="Docker Rails API Base"
 WORKDIR /app
@@ -34,7 +34,7 @@ CMD exec bin/start.sh
 
 ## Create the Gemfile
 
-```ruby
+```ruby {title="Gemfile"}
 source "https://rubygems.org"
 
 ruby "2.7.3"
@@ -43,7 +43,7 @@ gem "rails", "~> 6.1.3.2"
 
 ## Create the docker-compose.yml
 
-```yml
+```yml {title="docker-compose.yml"}
 version: "3"
 services:
   api:
@@ -75,7 +75,7 @@ volumes:
 
 ## Create a bin/start.sh file
 
-```sh
+```sh {title="bin/start.sh"}
 bundle check || bundle install
 
 if [ -f tmp/pids/server.pid ]; then
@@ -105,7 +105,7 @@ $ docker-compose run api rails new . --api --force --database=postgresql --skip-
 
 ## Replace content of config/database.yml with this:
 
-```yaml
+```yaml {title="config/database.yml"}
 global: &default
     adapter: postgresql
     pool: 5

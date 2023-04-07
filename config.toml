@@ -25,7 +25,7 @@ enableGitInfo = true
         lineAnchors = ""
         lineNoStart = 1
         lineNos = true
-        lineNumbersInTable = true
+        lineNumbersInTable = false
         style = "dracula"
     [frontmatter]
         lastmod = ["lastmod", ":git", "date", "publishDate"]
