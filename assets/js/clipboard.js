@@ -23,9 +23,10 @@ const addCopyButtons = () => {
             button.ariaLabel = "Copy the shown code";
             // remove every second newline from lastCodeBlock.innerText
             button.addEventListener("click", () => {
-                let spans = lastCodeBlock.querySelectorAll('span.ln');
+                let codeBlockClone = lastCodeBlock.cloneNode(true);
+                let spans = codeBlockClone.querySelectorAll('span.ln');
                 spans.forEach(span => span.remove());
-                navigator.clipboard.writeText(lastCodeBlock.innerText.replace(/\n\n/g, "\n")).then(
+                navigator.clipboard.writeText(codeBlockClone.innerText.replace(/\n\n/g, "\n")).then(
                   () => {
                       button.blur();
                       button.innerHTML = svgCheck;
