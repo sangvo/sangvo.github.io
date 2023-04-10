@@ -6,11 +6,12 @@ enableLatex: false
 enableCodeBlockTitle: true
 enableCodeBlockCopy: true
 enableCallouts: true
-enableSPA: true
+enableSPA: false
 enableFooter: false
 enableContextualBacklinks: true
 enableRecentNotes: true
 enableGitHubEdit: true
+enableMermaid: true
 GitHubLink: https://github.com/sangvo/notes/tree/hugo/content
 enableSemanticSearch: false
 operandApiKey: "AfCcq-dTLUesGFhuaeECg"

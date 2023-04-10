@@ -8,8 +8,6 @@ Hi, there 👋. My name is **Sang**. I am a developer with 3+ years experience s
 
 ## Get Started
 
-👉 Blog, see  [Blog →](https://blog.sangv2.com)
-
 👉 Notes, see [Notes →](notes)
 
 👉 Today I Learned, see [TIL →](tils)
