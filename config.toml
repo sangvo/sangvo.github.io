@@ -1,5 +1,5 @@
 baseURL = "https://sangv2.com/"
-languageCode = "en-us"
+languageCode = "vi"
 googleAnalytics = "G-9N6T0Z1J31"
 relativeURLs = false
 disablePathToLower = true
@@ -10,6 +10,16 @@ ignoreFiles = [
 summaryLength = 20
 paginate = 10
 enableGitInfo = true
+
+[Author]
+  name = "sangvo"
+[Params]
+  description = "sangvo - Web Developer"
+  logo = "icon.png"
+  copyright = "sangvo"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [markup]
     [markup.tableOfContents]

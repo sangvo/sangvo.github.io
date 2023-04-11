@@ -31,6 +31,7 @@
     end }}
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {{ partial "json_schema.html" . }}
 
   <!-- HTML Favicon -->
   {{ $favicon := $data.favicon  | default $.Site.Data.config.favicon | default (slice (dict "rel" "shortcut icon" "type" "image/png" "href" "icon.png")) }}
@@ -178,10 +179,10 @@
           )
         }
       {{end}}
-      
+
       // analytics
       function clickHandler(evt) {
-        const target = evt.target 
+        const target = evt.target
         const classNames = target.className.split(" ")
         const broken = classNames.includes("broken")
         const internal = classNames.includes("internal-link")
