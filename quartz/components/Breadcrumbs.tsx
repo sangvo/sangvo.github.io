@@ -108,10 +108,13 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
       }
     }
     return (
-      <nav class={`breadcrumb-container ${displayClass ?? ""}`} aria-label="breadcrumbs">
+      <nav class={`breadcrumb-container ${displayClass ?? ""}`} aria-label="breadcrumbs" itemScope itemType="https://schema.org/BreadcrumbList">
         {crumbs.map((crumb, index) => (
-          <div class="breadcrumb-element">
-            <a href={crumb.path}>{crumb.displayName}</a>
+          <div class="breadcrumb-element" itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+            <a href={crumb.path} itemProp="item">
+              <span itemProp="name">{crumb.displayName}</span>
+              <meta itemProp="position" content={index.toString()} />
+            </a>
             {index !== crumbs.length - 1 && <p>{` ${options.spacerSymbol} `}</p>}
           </div>
         ))}

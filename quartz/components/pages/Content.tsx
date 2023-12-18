@@ -3,7 +3,7 @@ import { QuartzComponentConstructor, QuartzComponentProps } from "../types"
 
 function Content({ fileData, tree }: QuartzComponentProps) {
   const content = htmlToJsx(fileData.filePath!, tree)
-  return <article class="popover-hint">{content}</article>
+  return <article class="popover-hint" itemProp="articleBody">{content}</article>
 }
 
 export default (() => Content) satisfies QuartzComponentConstructor
