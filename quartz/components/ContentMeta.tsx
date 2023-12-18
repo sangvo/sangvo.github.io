@@ -13,7 +13,7 @@ export default (() => {
         segments.push(formatDate(getDate(cfg, fileData)!))
       }
 
-      const formatDateMicro = new Date(getDate(cfg, fileData)!).toISOString().split('T')[0]
+      const formatDateMicro = new Date(getDate(cfg, fileData)!).toISOString()
 
       segments.push(timeTaken)
       return <time class={`content-meta ${displayClass ?? ""}`} dateTime={formatDateMicro} itemProp="datePublished">{segments.join(", ")}</time>
