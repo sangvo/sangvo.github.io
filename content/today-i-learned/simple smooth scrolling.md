@@ -3,6 +3,7 @@ title: Simple smooth scrolling with CSS
 tags:
     - javascript
     - css
+ogImage: "https://raw.githubusercontent.com/kevinpowell/kevinpowell.dev/main/content/today-i-learned/simple smooth scrolling.png"
 ---
 
 ```css

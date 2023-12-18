@@ -14,18 +14,37 @@ export default (() => {
       }
 
       const formatDateMicro = new Date(getDate(cfg, fileData)!).toISOString()
+      const authorName = fileData.frontmatter?.author ?? cfg?.author?.name
+      const authorUrl = fileData.frontmatter?.authorUrl ?? cfg?.author?.url
+      const ogImagePath = fileData.frontmatter?.ogImage ?? `https://${cfg.baseUrl}/static/og-image.png`
 
       segments.push(timeTaken)
-      return <time class={`content-meta ${displayClass ?? ""}`} dateTime={formatDateMicro} itemProp="datePublished">{segments.join(", ")}</time>
+      return (
+      <div class="content-meta-wrapper">
+        {cfg.baseUrl && <meta itemprop="image" content={ogImagePath} />}
+        <span class="content-meta author">
+          <a itemprop="url" href={authorUrl}>
+            <span itemprop="name">{authorName}</span>
+          </a>
+        </span>
+        <time class={`content-meta ${displayClass ?? ""}`} dateTime={formatDateMicro} itemProp="datePublished">{segments.join(", ")}</time>
+      </div>
+      )
     } else {
       return null
     }
   }
 
   ContentMetadata.css = `
+  .content-meta-wrapper {
+    margin-top: 1rem;
+  }
   .content-meta {
     margin-top: 0;
     color: var(--gray);
+  }
+  .author {
+    margin-right: 0.5rem;
   }
   `
   return ContentMetadata

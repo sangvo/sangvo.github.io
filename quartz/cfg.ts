@@ -17,6 +17,11 @@ export type Analytics =
       websiteId: string
     }
 
+export type Author = {
+  name: string
+  url?: string
+}
+
 export interface GlobalConfiguration {
   pageTitle: string
   /** Whether to enable single-page-app style rendering. this prevents flashes of unstyled content and improves smoothness of Quartz */
@@ -33,6 +38,7 @@ export interface GlobalConfiguration {
    *   Quartz will avoid using this as much as possible and use relative URLs most of the time
    */
   baseUrl?: string
+  author: Author
   theme: Theme
 }
 

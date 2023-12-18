@@ -11,6 +11,10 @@ const config: QuartzConfig = {
       tagId: 'G-9N6T0Z1J31'
     },
     baseUrl: "sangv2.com",
+    author: {
+      name: "sangvo",
+      url: "https://github.com/sangvo"
+    },
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
