@@ -22,7 +22,7 @@ export default (() => {
       return (
       <div class="content-meta-wrapper">
         {cfg.baseUrl && <meta itemprop="image" content={ogImagePath} />}
-        <span class="content-meta author">
+        <span class="content-meta author" itemprop="author" itemscope itemtype="https://schema.org/Person">
           <a itemprop="url" href={authorUrl}>
             <span itemprop="name">{authorName}</span>
           </a>
