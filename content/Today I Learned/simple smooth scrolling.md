@@ -1,8 +1,8 @@
 ---
 title: Simple smooth scrolling with CSS
 tags:
-    - javascript
-    - css
+  - javascript
+  - css
 ---
 
 ```css
