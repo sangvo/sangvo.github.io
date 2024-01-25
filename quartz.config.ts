@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       url: "https://github.com/sangvo"
     },
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    defaultDateType: "created",
     theme: {
       typography: {
         header: "Jost",
