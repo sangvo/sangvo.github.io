@@ -25,10 +25,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
-      folderDefaultState: "open",
+      folderDefaultState: "collapsed",
     })),
   ],
   right: [
+    Component.RecentNotes(),
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
