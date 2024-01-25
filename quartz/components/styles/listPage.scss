@@ -29,6 +29,12 @@ li.section-li {
       opacity: 0.6;
     }
   }
+
+  @media all and (max-width: $mobileBreakpoint) {
+    & > .section {
+      grid-template-columns: 6em 1fr;
+    }
+  }
 }
 
 // modifications in popover context

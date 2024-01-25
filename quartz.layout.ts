@@ -29,8 +29,10 @@ export const defaultContentPageLayout: PageLayout = {
     })),
   ],
   right: [
-    Component.RecentNotes(),
-    Component.Graph(),
+    Component.RecentNotes({
+      linkToMore: "tags",
+    }),
+    Component.DesktopOnly(Component.Graph()),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
