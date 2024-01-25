@@ -1,5 +1,7 @@
 ---
-title:
-tags:
+title: 
+tags: 
 draft: false
+date: 
+publishDate:
 ---

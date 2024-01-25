@@ -1,5 +1,6 @@
 ---
 title: Union all với Arel ruby on rails
+date: "2024-01-25T02:38:29.110Z"
 tags:
   - rails
   - arel

@@ -1,5 +1,6 @@
 ---
 title: Simple smooth scrolling with CSS
+date: "2023-12-18T04:25:25.251Z"
 tags:
   - javascript
   - css

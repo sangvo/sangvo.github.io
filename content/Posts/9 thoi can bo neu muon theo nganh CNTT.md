@@ -1,5 +1,6 @@
 ---
 title: 9 thói cần bỏ nếu muốn theo ngành CNTT
+date: "2023-12-21T07:13:49.844Z"
 tags:
   - life
   - cntt

@@ -1,5 +1,6 @@
 ---
 title: Create Rails app sqlite and Minitest one file
+date: "2023-12-15T08:06:41.247Z"
 tags:
     - rails
     - ruby
