@@ -27,13 +27,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer({
       folderDefaultState: "collapsed",
     })),
+    Component.DesktopOnly(Component.Graph()),
   ],
   right: [
+    Component.DesktopOnly(Component.TableOfContents()),
     Component.RecentNotes({
       linkToMore: "tags",
     }),
-    Component.DesktopOnly(Component.Graph()),
-    Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
 }
