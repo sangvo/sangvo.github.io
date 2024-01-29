@@ -19,7 +19,7 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     theme: {
       typography: {
-        header: "Jost",
+        header: "Inter",
         body: "Bitter",
         code: "IBM Plex Mono",
       },
